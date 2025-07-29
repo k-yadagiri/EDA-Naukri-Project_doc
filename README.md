@@ -1,32 +1,59 @@
-# 📊 EDA on Naukri Portal – Data Science Hiring Trends
+# EDA on Naukri.com Job Listings 🧑‍💻📊
 
-## 🎯 Aim
-To analyze hiring trends for Data Science roles by extracting and exploring real-time job data from [Naukri.com](https://www.naukri.com).
+This repository contains a detailed Exploratory Data Analysis (EDA) project on job listings scraped from the Naukri.com portal. The analysis aims to provide insights into job trends, required skills, locations, company preferences, salary distributions, and more, specifically focused on the Data Science domain.
 
-🗓️ Duration: April 2025 – May 2025
+## 📁 Files Included
 
----
-
-## 🧠 Business Objective
-Identify:
-- In-demand skills
-- Experience levels
-- Preferred job locations
-- Salary trends
-
-...to support **career planning**, **job search strategy**, and **curriculum design** for aspiring data professionals.
-
----
-
-## 🛠️ Approach & Responsibilities
-
-- ✅ **Web Scraping Pipeline**  
-  Designed and implemented a real-time scraping pipeline using **Selenium** and **BeautifulSoup** to collect over **500+ Data Science job listings**.
-
-- ✅ **Data Extraction**  
-  Collected and structured 10+ key fields including:
+### 1. `01_naukri_scraping.ipynb`
+- Performs web scraping on Naukri.com using Selenium and BeautifulSoup.
+- Extracts job information such as:
   - Job Title
-  - Skills
-  - Salary
-  - Experience
+  - Company Name
+  - Ratings
+  - Reviews
   - Location
+  - Experience Required
+  - Salary (if available)
+  - Skills
+  - Education Qualification
+- Saves the cleaned dataset into a CSV format for analysis.
+
+### 2. `02_data_cleaning_preparation.ipynb`
+- Loads the scraped data and performs preprocessing:
+  - Handles null values and duplicates.
+  - Standardizes salary, experience, and location columns.
+  - Converts columns to appropriate data types.
+  - Creates new features like salary range, job level classification, etc.
+
+### 3. `03_eda_visualization.ipynb`
+- Conducts in-depth analysis using Python libraries like Pandas, Matplotlib, and Seaborn.
+- Key visualizations include:
+  - Most demanded skills for Data Science roles.
+  - Top hiring locations in India.
+  - Salary vs Experience comparison.
+  - Company-wise job distribution.
+  - Job level frequency (e.g., Entry, Mid, Senior).
+
+## 🛠️ Tools & Libraries Used
+
+- Python
+- Pandas
+- Numpy
+- Selenium
+- BeautifulSoup
+- Matplotlib
+- Seaborn
+- Regex (re)
+
+## 📌 Key Insights
+
+- Python, SQL, and Machine Learning are the most in-demand skills.
+- Bangalore, Hyderabad, and Pune are top hiring cities.
+- Entry-level jobs often demand 0–2 years of experience with moderate salaries.
+- Certain companies post more frequently, indicating high recruitment demand.
+
+## 🚀 How to Run
+
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/your-username/eda-naukri
