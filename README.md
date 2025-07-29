@@ -52,4 +52,9 @@ This repository contains a detailed Exploratory Data Analysis (EDA) project on j
 - Entry-level jobs often demand 0–2 years of experience with moderate salaries.
 - Certain companies post more frequently, indicating high recruitment demand.
 
+## 🙋‍♂️ About Me
 
+**Yadagiri Kuruva**  
+Recent B.Tech graduate in CSE (AI & DS) | Data Analysis & Science Enthusiast  
+🔗 [GitHub](https://github.com/k-yadagiri)  
+🔗 [linkedln](https://www.linkedin.com/in/k-yadagiri)
