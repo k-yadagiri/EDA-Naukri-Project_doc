@@ -52,8 +52,4 @@ This repository contains a detailed Exploratory Data Analysis (EDA) project on j
 - Entry-level jobs often demand 0–2 years of experience with moderate salaries.
 - Certain companies post more frequently, indicating high recruitment demand.
 
-## 🚀 How to Run
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/eda-naukri
